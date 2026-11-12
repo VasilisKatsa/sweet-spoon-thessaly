@@ -341,7 +341,6 @@ window.addEventListener("scroll", ()=>{
 
         hero.style.backgroundPositionY =
         `${scrollY * 0.45}px`;
-        hero.style.transition = "background-position 0.1s linear";
 
     });
 
