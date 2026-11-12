@@ -20,7 +20,6 @@ body{
      url("images/Hero.png");
     background-size: cover;
     background-position:center;
-
     position: relative;
 }
 
@@ -1153,6 +1152,22 @@ body.light-mode .hero{
 
 body.light-mode .newsletter-form input::placeholder{
     color: rgba(0, 0, 0, 0.45);
+}
+
+/* TRADITION SECTION LIGHT MODE */
+
+body.light-mode .tradition-overlay{
+    background: rgba(255,248,238,0.72);
+}
+
+body.light-mode .tradition-content h2{
+    color: #1a1a1a;
+    text-shadow: 0 10px 30px rgba(255,255,255,0.35);
+}
+
+body.light-mode .tradition-content p{
+    color: #7a4f1c;
+    text-shadow: 0 2px 12px rgba(255,255,255,0.5);
 }
 
 .theme-toggle{
